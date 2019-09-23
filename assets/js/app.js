@@ -101,5 +101,10 @@ $('body').on("click", "#sub-butt", function(event) {
 
     topics.push(topicGet);
 
+    $('#gif-butt').val("")
     rendButt();
   });
+
+  $('body').on("click", "#gif-clear", function(event) {
+      $('#big-img-holder').empty();
+  })

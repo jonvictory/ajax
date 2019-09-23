@@ -1,3 +1,10 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    padding-bottom: 60px;
+}
 #myVideo {
     position: fixed;
     right: 0;
@@ -5,6 +12,7 @@
     min-width: 100%;
     min-height: 100%;
     z-index: -10;
+    
   }
 
   #banner {
@@ -12,9 +20,13 @@
     min-height: 10vh;
     text-align: center;
     color: white;
+    border-bottom-style: outset;
+    border-bottom-width: 5px;
+    border-bottom-color: white;
   }
   header {
       margin-bottom: 20px;
+      
   }
 
   #main-tain {
@@ -22,6 +34,21 @@
     min-height: 50vh;
     overflow: hidden;
     padding: 2em;
+    border-style: outset;
+    border-width: 5px;
+    border-color: white;
+    margin-bottom: 30vh;
+
+  }
+  
+  #big-butt-maker {
+    background-color: rgba(255, 255, 255, 0.6);
+      text-align: center;
+      border-color: white;
+      border-style: inset;
+      border-width: 5px;
+      margin: 10px;
+      padding: 5px;
   }
 
   .butt {
@@ -29,8 +56,15 @@
     text-transform: capitalize;
   }
 
-  .img-inc {
-    z-index: 5;
-    
-
+  footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    min-height: 60px;
+    text-align: center;
+    color: white;
+    border-top-style: outset;
+    border-top-width: 5px;
+    border-top-color: white;
+    /* position: absolute; */
+    padding: 60px;
+    width: 100%;
   }
