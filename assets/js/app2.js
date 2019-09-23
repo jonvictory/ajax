@@ -157,33 +157,34 @@ $('body').on("click", "#gif-clear", function (event) {
 $('body').on("click", "#hist-clear", function (event) {
 
     $('#big-butt-holder').empty();
-
+    
+    topics = [
+        {
+            name: "aeon flux",
+            offset: 0
+        },
+    
+        {
+            name: "liquid television",
+            offset: 0
+        },
+    
+        {
+            name: "ghost in the shell",
+            offset: 0
+        },
+    
+        {
+            name: "akira",
+            offset: 0
+        },
+    
+        {
+            name: "beavis and butthead",
+            offset: 0
+        },
+    ]
     rendButt();
 
-topics = [
-    {
-        name: "aeon flux",
-        offset: 0
-    },
 
-    {
-        name: "liquid television",
-        offset: 0
-    },
-
-    {
-        name: "ghost in the shell",
-        offset: 0
-    },
-
-    {
-        name: "akira",
-        offset: 0
-    },
-
-    {
-        name: "beavis and butthead",
-        offset: 0
-    },
-]
 })
