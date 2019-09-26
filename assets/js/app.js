@@ -36,6 +36,7 @@ $('body').on('click', 'button', function(){
     var apiKey = 'HRNSqbQGoSdDkvyDM5FS8DxPloAKhm8e'
     var queryURL = "https://api.giphy.com/v1/gifs/search?api_key="+apiKey+"&q="+topic+"&limit=10&offset=0&rating=PG-13&lang=en"
 
+
     console.log(topic)
 
     $.ajax({
