@@ -209,6 +209,34 @@ $('body').on("click", "#hist-clear", function (event) {
             offset: 0
         },
     ]
+
+    Localtopics = [
+        {
+            name: "aeon flux",
+            offset: 0
+        },
+
+        {
+            name: "liquid television",
+            offset: 0
+        },
+
+        {
+            name: "ghost in the shell",
+            offset: 0
+        },
+
+        {
+            name: "akira",
+            offset: 0
+        },
+
+        {
+            name: "beavis and butthead",
+            offset: 0
+        },
+    ]
+    
     
     rendButt();
 
