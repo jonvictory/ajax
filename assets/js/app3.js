@@ -151,7 +151,6 @@ $('body').on('click', '.giffer', function () {
 //render new button from text input
 $('body').on("click", "#sub-butt", function (event) {
     event.preventDefault();
-
     var topicGet = $("#gif-butt").val().trim();
 
     var topicName = topicGet;
@@ -210,7 +209,7 @@ $('body').on("click", "#hist-clear", function (event) {
         },
     ]
 
-    Localtopics = [
+    localTopics = [
         {
             name: "aeon flux",
             offset: 0
@@ -238,7 +237,7 @@ $('body').on("click", "#hist-clear", function (event) {
     ]
     
     
-    rendButt();
+    buttQuest();
 
 
 })
